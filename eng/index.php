@@ -58,7 +58,7 @@
                           <a href="products_2.php">
                             <div class="pic"><img src="../images/index/p.jpg" alt=""></div>
                             <div class="info">
-                          <h2 class="title">Standards Soft Jaws 1.5mmx60°</h2>
+                              <h2 class="title">Standards Soft Jaws 1.5mmx60°</h2>
                               <div class="more">Learn more</div>
                             </div>
                           </a>
@@ -69,18 +69,7 @@
                           <a href="products_2.php">
                             <div class="pic"><img src="../images/index/p.jpg" alt=""></div>
                             <div class="info">
-                          <h2 class="title">Standards Soft Jaws 1.5mmx60°</h2>
-                              <div class="more">Learn more</div>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                     <div class="swiper-slide">
-                        <div class="item">
-                          <a href="products_2.php">
-                            <div class="pic"><img src="../images/index/p.jpg" alt=""></div>
-                            <div class="info">
-                          <h2 class="title">Standards Soft Jaws 1.5mmx60°</h2>
+                              <h2 class="title">Standards Soft Jaws 1.5mmx60°</h2>
                               <div class="more">Learn more</div>
                             </div>
                           </a>
@@ -91,7 +80,7 @@
                           <a href="products_2.php">
                             <div class="pic"><img src="../images/index/p.jpg" alt=""></div>
                             <div class="info">
-                          <h2 class="title">Standards Soft Jaws 1.5mmx60°</h2>
+                              <h2 class="title">Standards Soft Jaws 1.5mmx60°</h2>
                               <div class="more">Learn more</div>
                             </div>
                           </a>
@@ -102,7 +91,18 @@
                           <a href="products_2.php">
                             <div class="pic"><img src="../images/index/p.jpg" alt=""></div>
                             <div class="info">
-                          <h2 class="title">Standards Soft Jaws 1.5mmx60°</h2>
+                              <h2 class="title">Standards Soft Jaws 1.5mmx60°</h2>
+                              <div class="more">Learn more</div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="item">
+                          <a href="products_2.php">
+                            <div class="pic"><img src="../images/index/p.jpg" alt=""></div>
+                            <div class="info">
+                              <h2 class="title">Standards Soft Jaws 1.5mmx60°</h2>
                               <div class="more">Learn more</div>
                             </div>
                           </a>
@@ -238,7 +238,7 @@
         700: {
           slidesPerView: 2,
         },
-        1000: {
+        1025: {
           slidesPerView: 3,
         },
         1300: {
