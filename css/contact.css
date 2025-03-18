@@ -1,0 +1,400 @@
+:root {
+  --RWDWidth: 1024px;
+}
+
+.contactPage .mainBox .contentBox {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.contactPage .inquiry {
+  position: relative;
+}
+.contactPage .inquiry .inquiryList {
+  background: #fff;
+  position: relative;
+  isolation: isolate;
+}
+.contactPage .inquiry .inquiryList .title {
+  padding: 3% 0;
+  font-weight: 700;
+  font-size: 1.75rem;
+  text-align: center;
+  color: #fff;
+  background: #7ECEF4;
+}
+.contactPage .inquiry table {
+  width: 100%;
+  margin: 0 auto;
+}
+.contactPage .inquiry table img {
+  max-width: 200px;
+}
+.contactPage .inquiry table tr {
+  border-bottom: #E5E5E5 1px solid;
+}
+.contactPage .inquiry table tr:nth-child(even) {
+  background: #F5F5F5;
+}
+.contactPage .inquiry table thead th {
+  background: #004387;
+  color: #FFF;
+  text-align: center;
+  font-size: 1rem;
+  height: 70px;
+}
+@media screen and (max-width: 767px) {
+  .contactPage .inquiry table thead th {
+    display: none;
+  }
+}
+.contactPage .inquiry table thead th:nth-child(2) {
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  .contactPage .inquiry table tbody tr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.contactPage .inquiry table tbody td {
+  padding: 15px;
+}
+.contactPage .inquiry table tbody td:nth-child(1) {
+  width: 15%;
+  border-right: none;
+}
+@media screen and (max-width: 767px) {
+  .contactPage .inquiry table tbody td:nth-child(1) {
+    width: 130px;
+  }
+  .contactPage .inquiry table tbody td:nth-child(1) img {
+    width: 100%;
+  }
+}
+.contactPage .inquiry table tbody td:nth-child(2) {
+  font-weight: 600;
+  font-size: var(--clamp51);
+  border-left: none;
+  line-height: 1.2;
+}
+@media screen and (max-width: 767px) {
+  .contactPage .inquiry table tbody td:nth-child(2) {
+    border: none;
+    width: calc(100% - 130px);
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.contactPage .inquiry table tbody td:nth-child(2) span {
+  display: block;
+  font-size: 16px;
+  color: #0075C2;
+}
+@media screen and (max-width: 767px) {
+  .contactPage .inquiry table tbody td:nth-child(3) {
+    height: 60px;
+    border: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contactPage .inquiry table tbody td:nth-child(4) {
+    height: 60px;
+    padding: 0;
+  }
+}
+.contactPage .inquiry table tbody td:nth-child(5) {
+  padding: 0 3px;
+  max-width: 40px;
+}
+@media screen and (max-width: 767px) {
+  .contactPage .inquiry table tbody td {
+    border: none !important;
+    margin-top: -1px;
+    width: 100%;
+    display: block;
+  }
+  .contactPage .inquiry table tbody td:nth-child(2) {
+    border: none !important;
+  }
+  .contactPage .inquiry table tbody td + td {
+    border-top: #dddddd 1px solid !important;
+  }
+}
+.contactPage .inquiry .qtyBox {
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: center;
+}
+.contactPage .inquiry .qtyBox input {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  color: #202020;
+  text-align: center;
+  background: #fff;
+  border: #E7E7EB 1px solid;
+  border-width: 1px 0;
+}
+.contactPage .inquiry .qtyBox button {
+  width: 30px;
+  height: 30px;
+  color: #7ECEF4;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background: #fff;
+  border: #E7E7EB 1px solid;
+  transition: all 0.3s ease;
+}
+.contactPage .inquiry .qtyBox button::before {
+  content: "";
+  width: 10px;
+  height: 2px;
+  display: block;
+  background: #BBBBBB;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+.contactPage .inquiry .qtyBox button.add::after {
+  content: "";
+  width: 2px;
+  height: 10px;
+  display: block;
+  background: #BBBBBB;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+.contactPage .inquiry .qtyBox button:hover {
+  background: #0075C2;
+}
+.contactPage .inquiry .qtyBox button:hover::before, .contactPage .inquiry .qtyBox button:hover::after {
+  background: #fff;
+}
+.contactPage .inquiry .del {
+  width: 30px;
+  aspect-ratio: 1;
+  align-self: center;
+  position: relative;
+  padding: 0;
+  margin: 10px 30px 0 auto;
+  border-radius: 5px;
+  text-indent: -999px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 767px) {
+  .contactPage .inquiry .del {
+    margin: 0;
+    text-indent: 0;
+    width: 100%;
+    background: #000;
+    aspect-ratio: unset;
+    border-radius: 0;
+    color: #FFF;
+    padding: 10px;
+  }
+}
+.contactPage .inquiry .del::before, .contactPage .inquiry .del::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 20px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #004387;
+  top: 50%;
+  left: 50%;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 767px) {
+  .contactPage .inquiry .del::before, .contactPage .inquiry .del::after {
+    display: none;
+  }
+}
+.contactPage .inquiry .del::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+.contactPage .inquiry .del:hover::before, .contactPage .inquiry .del:hover::after {
+  background: #7ECEF4;
+}
+.contactPage .titleBox {
+  margin: 0 auto var(--contentPadding);
+}
+.contactPage .titleBox .title {
+  font-size: var(--clamp48);
+  font-weight: 800;
+  line-height: 1.2;
+  padding-bottom: 3px;
+  position: relative;
+  isolation: isolate;
+  text-align: center;
+  color: #7ECEF4;
+  margin-bottom: 20px;
+}
+.contactPage .bottomBox {
+  background: #F3F5FA;
+  padding: var(--contentPadding);
+  position: relative;
+  z-index: 2;
+}
+@media screen and (max-width: 1024px) {
+  .contactPage .bottomBox {
+    margin: 0 calc(var(--contentPadding) * -1);
+    padding-bottom: 60px;
+  }
+}
+.contactPage .bottomBox .description {
+  font-size: var(--clamp21);
+  max-width: 1000px;
+  margin: 0 auto 4%;
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+}
+.contactPage .bottomBox .description span {
+  font-weight: 500;
+  color: #474747;
+  display: block;
+  font-size: var(--clamp18);
+}
+.contactPage .bottomBox .formBox {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.contactPage .infoBox .pageTitle {
+  color: #004387;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1;
+  font-size: var(--clamp36);
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .contactPage .infoBox .pageTitle {
+    margin-bottom: 20px;
+  }
+}
+.contactPage .infoBox .pageTitle span {
+  display: block;
+  color: #000;
+  font-weight: 600;
+  font-size: var(--clamp48);
+}
+.contactPage .infoBox .topInfo {
+  max-width: 1170px;
+  margin: 0 auto 50px;
+  color: #333333;
+  font-size: var(--clamp21);
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .contactPage .infoBox .topInfo {
+    margin: 0 auto 20px;
+  }
+}
+.contactPage .infoBox .info .address {
+  color: #06111F;
+  font-size: var(--clamp21);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.contactPage .infoBox .info .address::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background: url("../images/icon/icon_address.png") top no-repeat;
+  background-size: contain;
+  display: block;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.contactPage .infoBox .info ul {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  color: #202020;
+}
+@media screen and (max-width: 1024px) {
+  .contactPage .infoBox .info ul {
+    flex-direction: column;
+  }
+}
+.contactPage .infoBox .info ul li {
+  color: #06111F;
+  font-size: var(--clamp21);
+  flex-grow: 1;
+  border: #9BBAD9 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px 10px;
+}
+.contactPage .infoBox .info ul li span {
+  flex-shrink: 0;
+}
+.contactPage .infoBox .info ul li::before {
+  content: "";
+  width: 23px;
+  height: 23px;
+  background: url("../images/icon/icon_contact.png") top no-repeat;
+  display: block;
+  margin-right: 10px;
+}
+.contactPage .infoBox .info ul li.address::before {
+  background-position: 0 0;
+}
+.contactPage .infoBox .info ul li.tel::before {
+  background-position: 0 -23px;
+}
+.contactPage .infoBox .info ul li.fax::before {
+  background-position: 0 -46px;
+}
+.contactPage .infoBox .info ul li.mail::before {
+  background-position: 0 -69px;
+}
+
+.contactOk section {
+  text-align: center;
+}
+.contactOk section .title {
+  max-width: 570px;
+  margin: 0 auto;
+  line-height: 1.2;
+  font-size: var(--clamp48);
+  margin-bottom: 30px;
+  color: #004387;
+}
+.contactOk section .txt {
+  color: #333333;
+  font-size: var(--clamp21);
+}
+.contactOk section .subTitle {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+  background: #0075C2;
+  font-weight: 700;
+  font-size: var(--clamp24);
+  padding: 10px 40px;
+  -webkit-clip-path: polygon(30px 0%, 100% 0%, calc(100% - 30px) 100%, 0% 100%);
+          clip-path: polygon(30px 0%, 100% 0%, calc(100% - 30px) 100%, 0% 100%);
+  margin: 0 auto 30px;
+}/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+:root {
+  --RWDWidth: 1024px;
+}
+
+.htmlPage .blockTitle {
+  text-align: center;
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1024px) {
+  .htmlPage .blockTitle {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .htmlPage .blockTitle {
+    font-size: 1.875rem;
+  }
+}
+.htmlPage .editor {
+  font-size: var(--clamp21);
+}
+.htmlPage .editor span.title {
+  color: #0075C2;
+  font-weight: 700;
+}
+.htmlPage .editor ul.style li {
+  position: relative;
+  padding: 5px 0 5px 20px;
+}
+.htmlPage .editor ul.style li::before {
+  content: "◆";
+  color: #004387;
+  position: absolute;
+  left: 0;
+}/*# sourceMappingURL=html.css.map */
