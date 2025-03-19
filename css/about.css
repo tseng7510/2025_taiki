@@ -268,6 +268,7 @@
   gap: 80px;
   width: calc(100% - 440px);
   margin-bottom: 50px;
+  line-height: 1.25;
 }
 @media screen and (max-width: 1920px) {
   .aboutPage2 .block1 .editor {
@@ -279,6 +280,12 @@
     width: calc(100% - 450px);
   }
 }
+@media screen and (max-width: 1025px) {
+  .aboutPage2 .block1 .editor {
+    width: 50%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .aboutPage2 .block1 .editor {
     width: 100%;
@@ -292,6 +299,12 @@
   top: 60px;
   position: sticky;
 }
+@media screen and (max-width: 1025px) {
+  .aboutPage2 .block1 .pic {
+    width: 50%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .aboutPage2 .block1 .pic {
     position: relative;
