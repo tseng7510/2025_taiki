@@ -20,7 +20,7 @@
 }
 .banner img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .banner .videoContainer {
   overflow: hidden;
@@ -61,7 +61,7 @@
   opacity: 1;
   box-sizing: content-box;
   position: relative;
-  background: #7ECEF4;
+  background: #7ecef4;
 }
 @media screen and (max-width: 767px) {
   .banner .swiper-pagination .swiper-pagination-bullet {
@@ -80,7 +80,7 @@
   justify-content: center;
   gap: 20px;
   padding: 10px 10px;
-  color: #7ECEF4;
+  color: #7ecef4;
   background: #004387;
   font-weight: 700;
   overflow: hidden;
@@ -97,25 +97,25 @@
   }
 }
 .indexMore::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   right: 0;
   top: 0;
   bottom: 0;
   display: block;
-  background: #7ECEF4;
+  background: #7ecef4;
   z-index: -1;
   transition: all 0.3s ease;
 }
 .indexMore::after {
-  content: "";
+  content: '';
   width: 21px;
   height: 21px;
   display: block;
-  -webkit-mask: url("../images/icon/icon_arrow_more.svg") center no-repeat;
-          mask: url("../images/icon/icon_arrow_more.svg") center no-repeat;
-  background: #7ECEF4;
+  -webkit-mask: url('../images/icon/icon_arrow_more.svg') center no-repeat;
+  mask: url('../images/icon/icon_arrow_more.svg') center no-repeat;
+  background: #7ecef4;
   transition: all 0.3s ease;
 }
 @media screen and (max-width: 767px) {
@@ -191,7 +191,7 @@ section .blockTitle span {
 .productBox .item {
   height: 100%;
   padding: 30px;
-  border-left: #DDDDDD 1px solid;
+  border-left: #dddddd 1px solid;
 }
 
 @media screen and (max-width: 767px) {
@@ -242,10 +242,10 @@ section .blockTitle span {
   display: block;
   width: -moz-fit-content;
   width: fit-content;
-  color: #7ECEF4;
+  color: #7ecef4;
   font-size: 14px;
   font-weight: 600;
-  border-bottom: 2px solid #7ECEF4;
+  border-bottom: 2px solid #7ecef4;
   line-height: 1;
 }
 .productBox .swiperArrow {
@@ -260,11 +260,11 @@ section .blockTitle span {
   }
 }
 .productBox .swiperArrow::after {
-  content: "";
+  content: '';
   min-width: 55px;
   aspect-ratio: 55/152;
   display: block;
-  background: url("../images/icon/icon_arrow_swiper.svg") center no-repeat;
+  background: url('../images/icon/icon_arrow_swiper.svg') center no-repeat;
   background-size: contain;
 }
 @media screen and (max-width: 1200px) {
@@ -293,7 +293,7 @@ section .blockTitle span {
 }
 .productBox .swiperArrow:hover::after {
   opacity: 0.8;
-  background: url("../images/icon/icon_arrow_swiper_.svg") center no-repeat;
+  background: url('../images/icon/icon_arrow_swiper_.svg') center no-repeat;
 }
 
 .exhibitionBox {
@@ -306,12 +306,12 @@ section .blockTitle span {
 }
 .exhibitionBox .contentBox {
   padding-top: 6%;
-  border-top: 35px solid #7ECEF4;
+  border-top: 35px solid #7ecef4;
 }
 @media screen and (max-width: 767px) {
   .exhibitionBox .contentBox {
     padding-top: 50px;
-    border-top: 20px solid #7ECEF4;
+    border-top: 20px solid #7ecef4;
   }
 }
 .exhibitionBox .more {
@@ -319,9 +319,9 @@ section .blockTitle span {
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto 40px;
-  color: #7ECEF4;
+  color: #7ecef4;
   font-weight: 600;
-  border-bottom: 2px solid #7ECEF4;
+  border-bottom: 2px solid #7ecef4;
   line-height: 1;
 }
 @media screen and (max-width: 767px) {
@@ -332,7 +332,7 @@ section .blockTitle span {
 .exhibitionBox .box {
   display: flex;
   padding-top: 35px;
-  background: #F3F5FA;
+  background: #f3f5fa;
   padding: 0 0px 0 50px;
 }
 @media screen and (max-width: 1024px) {
@@ -346,7 +346,7 @@ section .blockTitle span {
   max-width: 430px;
   width: 30%;
   aspect-ratio: 433/325;
-  border: #9BBAD9 1px solid;
+  border: #9bbad9 1px solid;
   margin: 30px 0;
   align-self: flex-start;
 }
@@ -366,7 +366,7 @@ section .blockTitle span {
   }
 }
 .exhibitionBox .item + .item {
-  border-top: #9BBAD9 1px solid;
+  border-top: #9bbad9 1px solid;
 }
 .exhibitionBox .item a {
   padding: 23px 70px 22px 40px;
@@ -383,38 +383,38 @@ section .blockTitle span {
   }
 }
 .exhibitionBox .item a::before {
-  content: "";
+  content: '';
   width: 70px;
   height: 60px;
   position: absolute;
   right: 0;
   bottom: 0;
   -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-          clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-  background: #B5CDE1;
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  background: #b5cde1;
   transition: all 0.3s ease;
 }
 .exhibitionBox .item a::after {
-  content: "";
+  content: '';
   width: 16px;
   height: 9px;
   position: absolute;
   right: 15px;
   bottom: 15px;
-  -webkit-mask: url("../images/icon/icon_arrow_more.svg") center no-repeat;
-          mask: url("../images/icon/icon_arrow_more.svg") center no-repeat;
+  -webkit-mask: url('../images/icon/icon_arrow_more.svg') center no-repeat;
+  mask: url('../images/icon/icon_arrow_more.svg') center no-repeat;
   background: #fff;
   transition: all 0.3s ease;
 }
 .exhibitionBox .item a:hover {
-  background: #0075C2;
+  background: #0075c2;
   box-shadow: 0px 0px 15px rgba(0, 117, 194, 0.5);
 }
 .exhibitionBox .item a:hover::before {
-  background: #FFF;
+  background: #fff;
 }
 .exhibitionBox .item a:hover::after {
-  background: #0075C2;
+  background: #0075c2;
 }
 .exhibitionBox .item a:hover .title,
 .exhibitionBox .item a:hover .description {
@@ -458,7 +458,7 @@ section .blockTitle span {
   position: relative;
 }
 .aboutBox::before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   inset: 0 0 0;
@@ -496,11 +496,11 @@ section .blockTitle span {
   }
 }
 .aboutBox .listBox::before {
-  content: "";
+  content: '';
   width: 200%;
   -webkit-clip-path: polygon(20px 0%, 100% 0%, 100% 100%, 0% 100%);
-          clip-path: polygon(20px 0%, 100% 0%, 100% 100%, 0% 100%);
-  background: #7ECEF4;
+  clip-path: polygon(20px 0%, 100% 0%, 100% 100%, 0% 100%);
+  background: #7ecef4;
   display: block;
   position: absolute;
   height: 34px;
@@ -547,7 +547,7 @@ section .blockTitle span {
   opacity: 1;
   box-sizing: content-box;
   position: relative;
-  background: #7ECEF4;
+  background: #7ecef4;
 }
 @media screen and (max-width: 767px) {
   .aboutBox .swiper-pagination .swiper-pagination-bullet {
@@ -586,14 +586,27 @@ section .blockTitle span {
     font-size: 1.375rem;
   }
 }
-.aboutBox .info .topInfo span {
-  color: #7ECEF4;
+@media screen and (max-width: 500px) {
+  .aboutBox .info .topInfo {
+    font-size: 1.1rem;
+  }
+}
+.aboutBox .info .topInfo span.nowrap {
+  white-space: nowrap;
+}
+.aboutBox .info .topInfo span.color {
+  color: #7ecef4;
 }
 .aboutBox .info .description {
   font-size: var(--clamp21);
   color: #fff;
   margin-bottom: 40px;
   font-weight: 500;
+}
+@media screen and (max-width: 500px) {
+  .aboutBox .info .description {
+    font-size: 1rem;
+  }
 }
 .aboutBox .indexMore {
   flex-shrink: 0;
@@ -615,16 +628,16 @@ section .blockTitle span {
 }
 .bottomPicBox .pic {
   -webkit-clip-path: polygon(70px 0%, 100% 0%, calc(100% - 70px) 100%, 0% 100%);
-          clip-path: polygon(70px 0%, 100% 0%, calc(100% - 70px) 100%, 0% 100%);
+  clip-path: polygon(70px 0%, 100% 0%, calc(100% - 70px) 100%, 0% 100%);
   margin: 0 -35px;
 }
 .bottomPicBox .pic:first-child {
   -webkit-clip-path: polygon(0% 0%, 100% 0%, calc(100% - 70px) 100%, 0% 100%);
-          clip-path: polygon(0% 0%, 100% 0%, calc(100% - 70px) 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, calc(100% - 70px) 100%, 0% 100%);
   margin-left: 0;
 }
 .bottomPicBox .pic:last-child {
   -webkit-clip-path: polygon(70px 0%, 100% 0%, 100% 100%, 0% 100%);
-          clip-path: polygon(70px 0%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(70px 0%, 100% 0%, 100% 100%, 0% 100%);
   margin-right: 0;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */

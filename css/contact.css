@@ -21,7 +21,7 @@
   font-size: 1.75rem;
   text-align: center;
   color: #fff;
-  background: #7ECEF4;
+  background: #7ecef4;
 }
 .contactPage .inquiry table {
   width: 100%;
@@ -31,14 +31,14 @@
   max-width: 200px;
 }
 .contactPage .inquiry table tr {
-  border-bottom: #E5E5E5 1px solid;
+  border-bottom: #e5e5e5 1px solid;
 }
 .contactPage .inquiry table tr:nth-child(even) {
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
 .contactPage .inquiry table thead th {
   background: #004387;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 1rem;
   height: 70px;
@@ -93,7 +93,7 @@
 .contactPage .inquiry table tbody td:nth-child(2) span {
   display: block;
   font-size: 16px;
-  color: #0075C2;
+  color: #0075c2;
 }
 @media screen and (max-width: 767px) {
   .contactPage .inquiry table tbody td:nth-child(3) {
@@ -140,26 +140,26 @@
   color: #202020;
   text-align: center;
   background: #fff;
-  border: #E7E7EB 1px solid;
+  border: #e7e7eb 1px solid;
   border-width: 1px 0;
 }
 .contactPage .inquiry .qtyBox button {
   width: 30px;
   height: 30px;
-  color: #7ECEF4;
+  color: #7ecef4;
   position: relative;
   z-index: 1;
   overflow: hidden;
   background: #fff;
-  border: #E7E7EB 1px solid;
+  border: #e7e7eb 1px solid;
   transition: all 0.3s ease;
 }
 .contactPage .inquiry .qtyBox button::before {
-  content: "";
+  content: '';
   width: 10px;
   height: 2px;
   display: block;
-  background: #BBBBBB;
+  background: #bbbbbb;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -167,11 +167,11 @@
   transition: all 0.3s ease;
 }
 .contactPage .inquiry .qtyBox button.add::after {
-  content: "";
+  content: '';
   width: 2px;
   height: 10px;
   display: block;
-  background: #BBBBBB;
+  background: #bbbbbb;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -179,9 +179,10 @@
   transition: all 0.3s ease;
 }
 .contactPage .inquiry .qtyBox button:hover {
-  background: #0075C2;
+  background: #0075c2;
 }
-.contactPage .inquiry .qtyBox button:hover::before, .contactPage .inquiry .qtyBox button:hover::after {
+.contactPage .inquiry .qtyBox button:hover::before,
+.contactPage .inquiry .qtyBox button:hover::after {
   background: #fff;
 }
 .contactPage .inquiry .del {
@@ -204,12 +205,13 @@
     background: #000;
     aspect-ratio: unset;
     border-radius: 0;
-    color: #FFF;
+    color: #fff;
     padding: 10px;
   }
 }
-.contactPage .inquiry .del::before, .contactPage .inquiry .del::after {
-  content: "";
+.contactPage .inquiry .del::before,
+.contactPage .inquiry .del::after {
+  content: '';
   display: block;
   position: absolute;
   height: 3px;
@@ -221,15 +223,17 @@
   transition: all 0.3s ease;
 }
 @media screen and (max-width: 767px) {
-  .contactPage .inquiry .del::before, .contactPage .inquiry .del::after {
+  .contactPage .inquiry .del::before,
+  .contactPage .inquiry .del::after {
     display: none;
   }
 }
 .contactPage .inquiry .del::after {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
-.contactPage .inquiry .del:hover::before, .contactPage .inquiry .del:hover::after {
-  background: #7ECEF4;
+.contactPage .inquiry .del:hover::before,
+.contactPage .inquiry .del:hover::after {
+  background: #7ecef4;
 }
 .contactPage .titleBox {
   margin: 0 auto var(--contentPadding);
@@ -242,11 +246,11 @@
   position: relative;
   isolation: isolate;
   text-align: center;
-  color: #7ECEF4;
+  color: #7ecef4;
   margin-bottom: 20px;
 }
 .contactPage .bottomBox {
-  background: #F3F5FA;
+  background: #f3f5fa;
   padding: var(--contentPadding);
   position: relative;
   z-index: 2;
@@ -274,6 +278,24 @@
 .contactPage .bottomBox .formBox {
   max-width: 1100px;
   margin: 0 auto;
+}
+.contactPage .bottomBox .formBox .verificationCode {
+  max-width: 200px;
+}
+.inputItem .box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.formBox .pageBtnBox {
+  margin-top: 28px;
+}
+.formBox .pageBtnBox .send {
+  padding: 13px 20px;
+}
+.contactPage .bottomBox .formBox .verificationCode input {
+  flex-grow: unset;
+  width: auto;
 }
 .contactPage .infoBox .pageTitle {
   color: #004387;
@@ -307,7 +329,7 @@
   }
 }
 .contactPage .infoBox .info .address {
-  color: #06111F;
+  color: #06111f;
   font-size: var(--clamp21);
   text-align: center;
   display: flex;
@@ -316,10 +338,10 @@
   margin-bottom: 50px;
 }
 .contactPage .infoBox .info .address::before {
-  content: "";
+  content: '';
   width: 50px;
   height: 50px;
-  background: url("../images/icon/icon_address.png") top no-repeat;
+  background: url('../images/icon/icon_address.png') top no-repeat;
   background-size: contain;
   display: block;
   margin-right: 10px;
@@ -337,10 +359,10 @@
   }
 }
 .contactPage .infoBox .info ul li {
-  color: #06111F;
+  color: #06111f;
   font-size: var(--clamp21);
   flex-grow: 1;
-  border: #9BBAD9 1px solid;
+  border: #9bbad9 1px solid;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -351,10 +373,10 @@
   flex-shrink: 0;
 }
 .contactPage .infoBox .info ul li::before {
-  content: "";
+  content: '';
   width: 23px;
   height: 23px;
-  background: url("../images/icon/icon_contact.png") top no-repeat;
+  background: url('../images/icon/icon_contact.png') top no-repeat;
   display: block;
   margin-right: 10px;
 }
@@ -390,11 +412,11 @@
   width: -moz-fit-content;
   width: fit-content;
   color: #fff;
-  background: #0075C2;
+  background: #0075c2;
   font-weight: 700;
   font-size: var(--clamp24);
   padding: 10px 40px;
   -webkit-clip-path: polygon(30px 0%, 100% 0%, calc(100% - 30px) 100%, 0% 100%);
-          clip-path: polygon(30px 0%, 100% 0%, calc(100% - 30px) 100%, 0% 100%);
+  clip-path: polygon(30px 0%, 100% 0%, calc(100% - 30px) 100%, 0% 100%);
   margin: 0 auto 30px;
-}/*# sourceMappingURL=contact.css.map */
+} /*# sourceMappingURL=contact.css.map */

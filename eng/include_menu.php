@@ -24,7 +24,7 @@
       </div>
     </li>
     <li><a href="technology.php">TECHNOLOGY</a></li>
-    <li><a href="exhibition.php">MEDIA</a>
+    <li><a href="#">MEDIA</a>
       <div class="nextMenuBox">
         <ul>
           <li><a href="exhibition.php">Exhibition</a></li>
@@ -33,7 +33,7 @@
         </ul>
       </div>
     </li>
-    <li><a href="about.php">ABOUT US</a>
+    <li><a href="#">ABOUT US</a>
       <div class="nextMenuBox">
         <ul>
           <li><a href="about.php">Company Profile</a></li>

@@ -10,8 +10,9 @@
             <div class="footerSideBox">
               <div class="pic"><img src="../images/logo.svg" /></div>
               <P>We proudly maintain<br />
-                that all TAIKI products and manufacturing are<br />
-                MADE IN TAIWAN</P>
+                that all TAIKI products are<br />
+                MADE IN TAIWAN
+              </P>
               <div class="shareBox">
                 <ul>
                   <li>
@@ -29,6 +30,13 @@
             <div class="menuBox wow fadeInUp" data-wow-delay="0.2s">
               <div class="menu">
                 <a href="products.php" class="title">PRODUCTS</a>
+                <ul>
+                  <li><a href="products.php">Standard Soft Jaws 1.5mmx60°</a></li>
+                  <li><a href="products.php">Hard Jaws</a></li>
+                  <li><a href="products.php">Jaw T-Nuts</a></li>
+                  <li><a href="products.php">Jaw Boring Rings</a></li>
+                  <li><a href="products.php">Jaw Boring Fixtures</a></li>
+                </ul>
               </div>
               <div class="menu">
                 <div class="title">MEDIA</div>

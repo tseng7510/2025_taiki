@@ -112,26 +112,24 @@
                       </li>
                       <li class="inputItem wow fadeInUp required">
                         <label for="country">Country</label>
-                        <div class="select">
-                          <select name="" id="country" class="selectControl">
-                            <option value="">Select Country</option>
-                          </select>
-                        </div>
+                        <input type="text" class="inputControl" id="country">
                       </li>
                       <li class="textareaItem full wow fadeInUp required">
                         <label for="message">Message</label>
                         <textarea class="textareaControl" name="message" id="message" cols="30" rows="5"></textarea>
                       </li>
-                      <li class="inputItem wow fadeInUp required">
-                        <label for="password">Code</label>
-                        <input type="password" class="inputControl" id="password">
-                        <span class="checkImg"><img src="../images/check_img.jpg"></span>
-                        <button class="reBtn"></button>
+                      <li class="inputItem wow fadeInUp verificationCode required">
+                        <label for="verificationCode">Code</label>
+                        <div class="box">
+                          <input class="inputControl" id="verificationCode" maxlength="4">
+                          <span class="checkImg"><img src="../images/check_img.jpg"></span>
+                          <button class="reBtn"></button>
+                        </div>
                       </li>
+                      <div class="pageBtnBox wow fadeInUp">
+                        <button class="send" type="button" onclick="javascript:location.href='contact_ok.php'">SUBMIT</button>
+                      </div>
                     </ul>
-                    <div class="pageBtnBox wow fadeInUp">
-                      <button class="send" type="button" onclick="javascript:location.href='contact_ok.php'">SUBMIT</button>
-                    </div>
                   </form>
                 </div>
 

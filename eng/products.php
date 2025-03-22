@@ -56,12 +56,21 @@
               <div class="contentBox">
 
                 <div class="listBox wow fadeInUp" data-wow-delay="0.2s">
-                  <? for ($i = 0; $i < 12; $i++) { ?>
+                  <? for ($i = 0; $i < 6; $i++) { ?>
                     <div class="item">
                       <a href="products_2.php">
                         <div class="pic"><img src="../images/index/p.jpg" alt=""></div>
                         <div class="info">
                           <h2 class="title">Soft Jaws -Extra Height Type</h2>
+                          <div class="size">1.5mmx60°</div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a href="products_2.php">
+                        <div class="pic"><img src="../images/index/p.jpg" alt=""></div>
+                        <div class="info">
+                          <h2 class="title">Soft Jaws</h2>
                           <div class="size">1.5mmx60°</div>
                         </div>
                       </a>

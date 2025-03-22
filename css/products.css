@@ -65,9 +65,9 @@
   font-weight: 600;
   color: #004387;
   overflow: hidden;
-  display: -webkit-box;
+  /* display: -webkit-box;
   -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: vertical; */
 }
 .productsList .item .title {
   font-size: var(--clamp20);
@@ -75,9 +75,9 @@
   position: relative;
   transition: all 0.3s ease;
   overflow: hidden;
-  display: -webkit-box;
+  /* display: -webkit-box;
   -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: vertical; */
 }
 .productsList .item .more {
   display: flex;

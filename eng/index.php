@@ -123,7 +123,7 @@
                 <h2 class="blockTitle wow fadeInUp" data-wow-delay="0s">EXHIBITION</h2>
                 <a href="exhibition.php" class="more wow fadeInUp" data-wow-delay="0.2s">SHOW ALL</a>
                 <div class="box">
-                  <div class="pic wow fadeInLeft" data-wow-delay="0.4s"><img src="../images/index/e.jpg" alt=""></div>
+                  <div class="pic wow fadeInLeft" data-wow-delay="0.4s"><a href="exhibition_detail.php"><img src="../images/index/e.jpg" alt=""></a></div>
                   <div class="listBox wow fadeInRight" data-wow-delay="0.4s">
                     <? for ($i = 0; $i < 4; $i++) { ?>
                       <div class="item">
@@ -148,8 +148,9 @@
               <div class="contentBox">
                 <div class="info">
                   <div class="logo"><img src="../images/logo.svg" alt="Taiki Industrial Co., Ltd." /></div>
-                  <div class="topInfo">is the epitome of excellence in Taiwanese<br />
-                    <span>Soft Jaws and Accessories of Power Chuck</span> manufacturing.
+                  <div class="topInfo">
+                    <span class="nowrap">is the epitome of excellence in Taiwanese</span><br />
+                    <span class="color">Soft Jaws and Accessories of Power Chuck</span> manufacturing.
                   </div>
                   <div class="description">
                     It has set up a Broaching Machine and CNC Machine Center which can broach and drill the best quality castings and get perfect shapes.
@@ -252,7 +253,9 @@
     exhibitionBtn.forEach((value, index) => {
       value.addEventListener('mouseover', () => {
         const src = value.getAttribute('data-src');
+        const href = value.getAttribute('href');
         exhibitionPic.src = src;
+        exhibitionPic.parentElement.setAttribute('href', href);
       })
     })
 
